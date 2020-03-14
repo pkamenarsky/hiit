@@ -15,7 +15,7 @@ function replicate(c, x) {
   let str = '';
 
   for (let i = 0; i < x; i++) {
-    str += c + (i < x - 1 ? ' ' : '');
+    str += c + (i < x - 1 ? ((i + 1) % 5 == 0 ? '&nbsp;&nbsp;&nbsp;&nbsp;' : '&nbsp;') : '');
   }
 
   return str;
@@ -55,6 +55,6 @@ timerFrom([{
   secs: 30,
   mode: 'Jump'
 }, {
-  secs: 20,
+  secs: 30,
   mode: 'Rest'
 }]);
