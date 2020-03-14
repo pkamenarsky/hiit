@@ -1,0 +1,41 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/Muller-ExtraBold-DEMO.ttf) format('truetype');
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+
+  color: #333;
+
+  font-weight: 500;
+  font-family: 'Muller';
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.centered {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.timer {
+  margin-top: 120px;
+  font-size: 288px;
+}
+
+.mode {
+  margin-top: 24px;
+  font-size: 64px;
+}
+
+.cycle {
+  margin-top: 24px;
+  font-size: 32px;
+}
