@@ -20,9 +20,8 @@ body {
 
 .centered {
   display: block;
-  text-align: center;
   margin: auto;
-  width: 100%;
+  width: 50%;
 }
 
 .timer {
@@ -31,11 +30,11 @@ body {
 }
 
 .mode {
-  margin-top: 24px;
+  margin-top: 0px;
   font-size: 64px;
 }
 
 .cycle {
-  margin-top: 24px;
+  margin-top: 32px;
   font-size: 32px;
 }
